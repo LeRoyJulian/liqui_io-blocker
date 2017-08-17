@@ -8,6 +8,7 @@ var messages = document.getElementsByClassName('message-text');
                messages[i].innerHTML.indexOf('blammas') !== -1 ||
                messages[i].innerHTML.indexOf('etherisreal') !== -1 ||
                messages[i].innerHTML.indexOf('ram123') !== -1 ||
+               messages[i].innerHTML.indexOf('imab1') !== -1 ||
                messages[i].innerHTML.indexOf('bryan') !== -1
             )
 
