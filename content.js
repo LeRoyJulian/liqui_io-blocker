@@ -1,3 +1,4 @@
+var messages = document.getElementsByClassName('message-text');
 
    function filter() {
       var messages = document.getElementsByClassName('message-text');
