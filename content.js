@@ -9,6 +9,7 @@ var messages = document.getElementsByClassName('message-text');
                messages[i].innerHTML.indexOf('etherisreal') !== -1 ||
                messages[i].innerHTML.indexOf('bryan') !== -1
             )
+
                messages[i].remove();
             }
          }
