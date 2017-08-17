@@ -4,8 +4,12 @@ var messages = document.getElementsByClassName('message-text');
       var messages = document.getElementsByClassName('message-text');
       for (var i = 0, l = messages.length; i < l; i++) {
          if (messages[i] && messages[i].innerHTML) {
-            if (messages[i].innerHTML.indexOf('blammas') !== -1 || messages[i].innerHTML.indexOf('etherisreal') !== -1 
-               || messages[i].innerHTML.indexOf('bryan') !== -1)
+            if (
+               messages[i].innerHTML.indexOf('blammas') !== -1 ||
+               messages[i].innerHTML.indexOf('etherisreal') !== -1 ||
+               messages[i].innerHTML.indexOf('bryan') !== -1
+            )
+
                messages[i].remove();
             }
          }
