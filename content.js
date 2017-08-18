@@ -10,6 +10,7 @@ var messages = document.getElementsByClassName('message-text');
                messages[i].innerHTML.indexOf('ram123') !== -1 ||
                messages[i].innerHTML.indexOf('imab1') !== -1 ||
                messages[i].innerHTML.indexOf('TheWanderer') !== -1 ||
+               messages[i].innerHTML.indexOf('nehanino') !== -1 ||
                messages[i].innerHTML.indexOf('bryan') !== -1
             )
 
