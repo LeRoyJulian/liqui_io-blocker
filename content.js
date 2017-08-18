@@ -5,19 +5,20 @@ function filter() {
         var message = messages[i].getElementsByTagName('a');
         for (var j = 0; j < message.length; j++) {
           if (
-            messages[j].innerHTML.indexOf('blammas') !== -1 ||
-            messages[j].innerHTML.indexOf('etherisreal') !== -1 ||
-            messages[j].innerHTML.indexOf('ram123') !== -1 ||
-            messages[j].innerHTML.indexOf('imab1') !== -1 ||
-            messages[j].innerHTML.indexOf('TheWanderer') !== -1 ||
-            messages[j].innerHTML.indexOf('nehanino') !== -1 ||
-            messages[j].innerHTML.indexOf('bryan') !== -1
+            message[j].innerHTML.indexOf('blammas') !== -1 ||
+            message[j].innerHTML.indexOf('etherisreal') !== -1 ||
+            message[j].innerHTML.indexOf('ram123') !== -1 ||
+            message[j].innerHTML.indexOf('imab1') !== -1 ||
+            message[j].innerHTML.indexOf('TheWanderer') !== -1 ||
+            message[j].innerHTML.indexOf('nehanino') !== -1 ||
+            message[j].innerHTML.indexOf('BanaanBakje') !== -1 ||
+            message[j].innerHTML.indexOf('bryan') !== -1
           )
             messages[i].remove();
           }
         }
       }
-    setTimeout(function() { filter() }, 2000);
+    setTimeout(function() { filter() }, 1500);
 }
 
 filter();
