@@ -12,7 +12,7 @@ function filter() {
             message[j].innerHTML.indexOf('TheWanderer') !== -1 ||
             message[j].innerHTML.indexOf('nehanino') !== -1 ||
             message[j].innerHTML.indexOf('BanaanBakje') !== -1 ||
-            message[j].innerHTML.indexOf('bryan') !== -1
+            message[j].innerHTML.indexOf('bryan') !== -1 ||
             message[j].innerHTML.indexOf('bobfish') !== -1
           )
             messages[i].remove();
