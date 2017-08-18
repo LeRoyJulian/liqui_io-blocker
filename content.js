@@ -16,7 +16,7 @@ var messages = document.getElementsByClassName('message-text');
                messages[i].remove();
             }
          }
-      setTimeout(function() { filter() }, 2000);
+      setTimeout(function() { filter() }, 1500);
    }
 
 filter();
