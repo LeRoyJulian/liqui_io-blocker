@@ -15,7 +15,8 @@ function filter() {
             message[j].innerHTML.indexOf('bryan') !== -1 ||
             message[j].innerHTML.indexOf('bobfish') !== -1 ||
             message[j].innerHTML.indexOf('toomuchfun') !== -1 ||
-            message[j].innerHTML.indexOf('etherisreaI') !== -1
+            message[j].innerHTML.indexOf('etherisreaI') !== -1 ||
+            message[j].innerHTML.indexOf('kosarkas') !== -1
           )
             messages[i].remove();
           }
