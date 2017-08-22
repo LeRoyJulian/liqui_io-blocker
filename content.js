@@ -35,7 +35,8 @@ function checker(value) {
       'javigot',
       'Mouctar_d',
       'kailtan19',
-      'nathalie20'
+      'nathalie20',
+      'MarketAnalysis'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
