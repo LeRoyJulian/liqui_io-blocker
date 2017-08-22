@@ -21,7 +21,10 @@ function checker(value) {
       'b12345',
       'otabbakha16',
       'barnone17',
-      'morehganeshan'
+      'morehganeshan',
+      'amaanstur',
+      'roadster213',
+      'woob0112'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
