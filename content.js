@@ -24,7 +24,8 @@ function checker(value) {
       'morehganeshan',
       'amaanstur',
       'roadster213',
-      'woob0112'
+      'woob0112',
+      'neodoesntspoone'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
