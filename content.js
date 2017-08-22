@@ -18,7 +18,10 @@ function checker(value) {
       'WowlookatZRXarbthat',
       'eggwagon',
       'heroesjourney',
-      'b12345'
+      'b12345',
+      'otabbakha16',
+      'barnone17',
+      'morehganeshan'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
