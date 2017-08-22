@@ -19,7 +19,9 @@ function filter() {
             message[j].innerHTML.indexOf('kosarkas') !== -1 ||
             message[j].innerHTML.indexOf('ChronoTr') !== -1 ||
             message[j].innerHTML.indexOf('thefuturist133') !== -1 ||
-            message[j].innerHTML.indexOf('offermann515') !== -1
+            message[j].innerHTML.indexOf('offermann515') !== -1 ||
+            message[j].innerHTML.indexOf('WowlookatZRXarbthat') !== -1 ||
+            message[j].innerHTML.indexOf('eggwagon') !== -1
           )
             messages[i].remove();
           }
