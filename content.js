@@ -30,7 +30,12 @@ function checker(value) {
       'Census2016',
       'onefry',
       'dappman',
-      'l0k3m'
+      'l0k3m',
+      'Fari00b',
+      'javigot',
+      'Mouctar_d',
+      'kailtan19',
+      'nathalie20'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
