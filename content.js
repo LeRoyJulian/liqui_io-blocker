@@ -27,7 +27,8 @@ function checker(value) {
       'woob0112',
       'neodoesntspoone',
       '1350walton',
-      'Census2016'
+      'Census2016',
+      'onefry'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
