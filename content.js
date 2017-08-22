@@ -25,7 +25,8 @@ function checker(value) {
       'amaanstur',
       'roadster213',
       'woob0112',
-      'neodoesntspoone'
+      'neodoesntspoone',
+      '1350walton'
    ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
