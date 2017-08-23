@@ -13,6 +13,9 @@ function save_options() {
       }, function() {
          console.log('Ok!')
       });
+      Array.from(document.getElementsByClassName("delete")).forEach(function(element) {
+         element.addEventListener('click', deleteUser);
+      });
    });
 }
 
