@@ -3,6 +3,10 @@
   "name": "Liqui.io Blocker",
   "version": "0.1.0",
   "description": "Block assholes on Liqui.",
+  "options_page": "options.html",
+  "permissions": [
+     "storage"
+   ],
   "content_scripts": [{
     "js": ["content.js"],
     "matches": ["https://liqui.io/*"]

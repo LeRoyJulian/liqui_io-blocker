@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Test Extension Options</title></head>
+<style>
+   * { box-sizing: border-box; }
+   body { max-width: 980px; margin: 0 auto; padding: 30px; }
+   .header { text-align: center; margin-bottom: 60px; }
+   .header img { width: 280px; height: auto; }
+   input { width: 100%; border-radius: 5px; line-height: 24px; padding: 8px; border: 1px solid grey; outline: none; margin-bottom: 15px;}
+   #save { width: 100%; border-radius: 5px; background: #1A78FF; border: none; color: #FFF; font-size: 15px; padding: 15px; margin: 0; font-weight: bold; text-transform: uppercase; cursor: pointer;}
+   #usernames { margin-top: 45px;  }
+   #usernames li { font-size: 15px; }
+</style>
+<body>
+
+<div class="header">
+   <img src="https://liqui.io/img/logo.svg" />
+</div>
+
+<input id="username" type="text" />
+
+<div id="status"></div>
+<button id="save">Mute</button>
+
+<div id="usernames"></div>
+
+<script src="options.js"></script>
+</body>
+</html>

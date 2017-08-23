@@ -1,44 +1,12 @@
+var muted = [];
+
+chrome.storage.sync.get({
+  usernames: [],
+}, function(items) {
+   muted = items.usernames;
+});
+
 function checker(value) {
-   var muted = [
-      'blammas',
-      'etherisreal',
-      'ram123',
-      'imab1',
-      'TheWanderer',
-      'nehanino',
-      'BanaanBakje',
-      'bryan',
-      'bobfish',
-      'toomuchfun',
-      'etherisreaI',
-      'kosarkas',
-      'ChronoTr',
-      'thefuturist133',
-      'offermann515',
-      'WowlookatZRXarbthat',
-      'eggwagon',
-      'heroesjourney',
-      'b12345',
-      'otabbakha16',
-      'barnone17',
-      'morehganeshan',
-      'amaanstur',
-      'roadster213',
-      'woob0112',
-      'neodoesntspoone',
-      '1350walton',
-      'Census2016',
-      'onefry',
-      'dappman',
-      'l0k3m',
-      'Fari00b',
-      'javigot',
-      'Mouctar_d',
-      'kailtan19',
-      'nathalie20',
-      'MarketAnalysis',
-      'dcxdc'
-   ];
   for (var i = 0; i < muted.length; i++) {
     if (value.indexOf(muted[i]) !== -1) {
       return true;
